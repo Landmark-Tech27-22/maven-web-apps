@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-releases/</url>
+	      <name>paypal-release</name>
+	      <url>http://44.203.138.252:8888/repository/paypal-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-snapshot/</url>
+	      <name>paypal-snapshot</name>
+	      <url>http://44.203.138.252:8888/repository/paypal-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
