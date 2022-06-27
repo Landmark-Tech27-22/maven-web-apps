@@ -1,5 +1,5 @@
 - host: docker
-  become: true
+  #become: true
   tasks:
     - name: Build Docker image
       command: docker build -t webapp:1 -f Dockerfile .
