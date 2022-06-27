@@ -2,7 +2,7 @@
   #become: true
   tasks:
     - name: Build Docker image
-      command: docker build -t webapp:1 -f Dockerfile .
+      command: docker build -t webapp:1 -f /home/ubuntu/agent1/workspace/practice_job/Dockerfile 
 #    - name: login to dockerhub
 #      command: docker login -u {username}
     - name: tag docker image
