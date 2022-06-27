@@ -1,2 +1,2 @@
 [docker]
-172.31.91.197     ansible_user=ubuntu  ansible_password=admin123
+172.31.91.197     ansible_user=ubuntu
