@@ -1,4 +1,4 @@
-- host: docker
+- hosts: docker
   #become: true
   tasks:
     - name: Build Docker image
