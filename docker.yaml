@@ -1,0 +1,14 @@
+- host: docker
+  become: true
+  tasks:
+    - name: Build Docker image
+      command: docker build -t webapp:1 -f Dockerfile .
+#    - name: login to dockerhub
+#      command: docker login -u {username}
+    - name: tag docker image
+      command: docker tag webapp:1 vajisola/maven-web-apps:1
+    - name: docker push image
+      command: docker push vajisola/maven-web-apps:1
+      ignore_errors: true
+    - name: Run container
+      command: docker run -d --name webapp -p 3000:8080 webapp:1
